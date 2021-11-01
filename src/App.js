@@ -1,7 +1,9 @@
 import React from "react";
-import JSX from "./JSX";
+import ConditionalRendering from "./ConditionalRendering";
 
 function App(){
-  return <JSX/>;
+  return (
+    <ConditionalRendering isSpecial/>
+  );
 }
 export default App;
